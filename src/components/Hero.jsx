@@ -9,7 +9,7 @@ export default function Hero({ data }) {
   }, []);
 
   return (
-    <section className="relative h-[680px] overflow-hidden">
+    <section className="relative h-[780px] overflow-hidden">
 
       <img
         src={couple}
