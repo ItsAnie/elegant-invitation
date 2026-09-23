@@ -38,7 +38,7 @@ export default function Hero({ data }) {
         <div className="mt-auto">
 
           <h1
-            className={`font-script text-6xl drop-shadow-md transition-all duration-1000 ease-out delay-300 sm:text-7xl md:text-8xl ${
+            className={`font-serif text-6xl drop-shadow-md transition-all duration-1000 ease-out delay-300 sm:text-7xl md:text-8xl ${
               show
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"
@@ -58,7 +58,7 @@ export default function Hero({ data }) {
           </div>
 
           <h1
-            className={`font-script text-6xl drop-shadow-md transition-all duration-1000 ease-out delay-1000 sm:text-7xl md:text-8xl ${
+            className={`font-serif text-6xl drop-shadow-md transition-all duration-1000 ease-out delay-1000 sm:text-7xl md:text-8xl ${
               show
                 ? "translate-y-0 opacity-100"
                 : "translate-y-8 opacity-0"
