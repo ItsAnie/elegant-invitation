@@ -81,7 +81,7 @@ export default function Countdown({ targetDate }) {
 
       {/* Title */}
       <h2
-        className={`mb-[10px] text-center text-[28px] font-serif italic transition-all duration-1000 ease-out ${
+        className={`mb-[10px] text-center text-[28px] font-armenian transition-all duration-1000 ease-out ${
           isVisible
             ? "translate-y-0 opacity-100"
             : "translate-y-6 opacity-0"

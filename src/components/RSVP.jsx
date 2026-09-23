@@ -52,7 +52,7 @@ export default function RSVP({ weddingId, deadline  }) {
     <section className="bg-[#f5f1e9] px-8 py-14 sm:px-12 sm:py-20">
       <div className="mx-auto max-w-xl text-center">
 
-        <h2 className="font-serif text-[28px] italic text-[#555846]">
+        <h2 className="font-armenian text-[28px] italic text-[#555846]">
           Հրավերի պատասխան
         </h2>
 

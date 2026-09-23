@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Montserrat:wght@300;400;500&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:wght@300;400;500&family=Noto+Serif+Armenian:ital,wght@0,400;0,500;1,400;1,500&family=Parisienne&display=swap');
 
 @import "tailwindcss";
-
-.force-italic {
-  transform: skewX(-10deg);
-}
 
 :root {
   font-family: "Montserrat", sans-serif;
@@ -35,10 +31,20 @@ select {
   font: inherit;
 }
 
+/* Fonts */
+
+/* English serif */
 .font-serif {
   font-family: "Cormorant Garamond", serif;
 }
 
+/* Armenian serif */
+.font-armenian {
+  font-family: "Noto Serif Armenian", serif;
+  transform: skewX(-15deg);
+}
+
+/* Decorative script */
 .font-script {
   font-family: "Parisienne", cursive;
 }
@@ -87,7 +93,7 @@ select {
     54% 100%,
     48% 98.5%,
     42% 100%,
-    36% 98.5%,
+    36% 100%,
     30% 100%,
     24% 98.5%,
     18% 100%,

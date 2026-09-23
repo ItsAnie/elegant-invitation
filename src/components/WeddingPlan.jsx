@@ -36,7 +36,7 @@ export default function WeddingPlan({ data }) {
 
         {/* Title */}
         <h2
-          className={`mb-10 text-center font-serif text-[28px] italic transition-all duration-1000 ease-out ${
+          className={`mb-10 text-center font-armenian text-[28px] transition-all duration-1000 ease-out ${
             isVisible
               ? "translate-y-0 opacity-100"
               : "translate-y-6 opacity-0"
@@ -61,7 +61,7 @@ export default function WeddingPlan({ data }) {
           />
 
           <div>
-            <h2 className="font-serif text-[24px] italic text-[#555846]">
+            <h2 className="font-armenian text-[24px] italic text-[#555846]">
               {data.plan.fiance.title}
             </h2>
 
@@ -99,7 +99,7 @@ export default function WeddingPlan({ data }) {
           />
 
           <div>
-            <h2 className="font-serif text-[24px] italic text-[#555846]">
+            <h2 className="font-armenian text-[24px] italic text-[#555846]">
               {data.plan.bride.title}
             </h2>
 
@@ -137,7 +137,7 @@ export default function WeddingPlan({ data }) {
           />
 
           <div>
-            <h2 className="font-serif text-[24px] italic text-[#555846]">
+            <h2 className="font-armenian text-[24px] italic text-[#555846]">
               {data.ceremony.title}
             </h2>
 
@@ -175,7 +175,7 @@ export default function WeddingPlan({ data }) {
           />
 
           <div>
-            <h2 className="font-serif text-[24px] italic text-[#555846]">
+            <h2 className="font-armenian text-[24px] text-[#555846]">
               {data.reception.title}
             </h2>
 

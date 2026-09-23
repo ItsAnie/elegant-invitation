@@ -83,7 +83,7 @@ export default function WeddingDay({ date }) {
 
           {/* Ամիս */}
           <h2
-            className={`text-center font-serif text-4xl italic text-[#555846] transition-all duration-1000 ease-out sm:text-5xl ${
+            className={`text-center font-armenian text-4xl text-[#555846] transition-all duration-1000 ease-out sm:text-5xl ${
               isVisible
                 ? "translate-y-0 opacity-100"
                 : "translate-y-6 opacity-0"

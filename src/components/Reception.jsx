@@ -41,7 +41,7 @@ export default function Reception({ event }) {
         />
 
         <h2
-          className={`mt-[20px] font-serif text-3xl italic text-[#555846] transition-all duration-700 sm:text-4xl ${
+          className={`mt-[20px] font-armenian text-[24px] text-[#555846] transition-all duration-700 sm:text-4xl ${
             isVisible
               ? "translate-y-0 opacity-100"
               : "translate-y-5 opacity-0"
