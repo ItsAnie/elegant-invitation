@@ -14,7 +14,7 @@ export default function Hero({ data }) {
       <img
         src={couple}
         alt="Wedding couple"
-        className={`absolute inset-0 h-screen w-full object-cover transition-transform duration-[12000ms] ease-out ${
+        className={`absolute inset-0 h-full w-full object-cover transition-transform duration-[12000ms] ease-out ${
           show ? "scale-[1.06]" : "scale-100"
         }`}
       />
@@ -30,7 +30,7 @@ export default function Hero({ data }) {
               : "-translate-y-5 opacity-0"
           }`}
         >
-          <p className="text-[9px] uppercase tracking-[0.4em] sm:text-[10px]">
+          <p className="text-[11px] uppercase tracking-[0.4em] sm:text-[10px]">
             {data.intro}
           </p>
         </div>

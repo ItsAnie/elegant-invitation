@@ -77,7 +77,7 @@ export default function WeddingDay({ date }) {
   return (
     <div ref={sectionRef}>
 
-      <section className="bg-[#f5f1e9] px-7 pb-12 sm:px-12 sm:py-16">
+      <section className="bg-[#f5f1e9] px-7 py-12 sm:px-12">
 
         <div className="mx-auto max-w-md border-b border-[#b8b29f]/40 pb-[10px]">
 

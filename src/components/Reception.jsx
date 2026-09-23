@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import reception from "../assets/reception.png";
+import garden from "../assets/garden.jpg";
 
 export default function Reception({ event }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -31,9 +31,9 @@ export default function Reception({ event }) {
       <div className="mx-auto flex max-w-md flex-col items-center justify-center border-b border-[#b8b29f]/40 pb-10">
 
         <img
-          src={reception}
-          alt="Reception image"
-          className={`transition-all duration-700 ${
+          src={garden}
+          alt="Garden image"
+          className={`h-[280px] w-[376px] object-cover rounded-xl transition-all duration-700 ${
             isVisible
               ? "translate-y-0 scale-100 opacity-100"
               : "translate-y-5 scale-90 opacity-0"
@@ -41,7 +41,7 @@ export default function Reception({ event }) {
         />
 
         <h2
-          className={`font-serif text-3xl italic text-[#555846] transition-all duration-700 sm:text-4xl ${
+          className={`mt-[20px] font-serif text-3xl italic text-[#555846] transition-all duration-700 sm:text-4xl ${
             isVisible
               ? "translate-y-0 opacity-100"
               : "translate-y-5 opacity-0"

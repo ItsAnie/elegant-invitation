@@ -4,12 +4,13 @@ import engangement from "../assets/engangement.jpg"
 const InvitationMessage = () => {
   return (
     <div>
-    <section className="px-6 py-6 text-center">
-        <div className="w-[250px] mx-auto bg-white flex flex-col items-center p-[20px] mb-[30px] rounded-lg">
+      <div className="w-[250px] mx-auto bg-white flex flex-col gap-[10px] items-center p-[20px] rounded-lg">
             <img alt="Wedding image" src={engangement} className="rounded-lg" />
-            <p className="max-w-[250px] text-center text-3xl font-serif italic">Save The Date <b>25.05.2027</b></p>
+            <p className="max-w-[250px] text-center text-xl font-serif italic">Save The Date 20.05.2027</p>
         </div>
-      <h2 className="mb-4 text-2xl font-serif italic uppercase tracking-[0.25em] text-[#555846]">
+    <section className="text-center px-6 m-[40px]">
+        
+      <h2 className="mb-4 text-[28px] font-serif italic uppercase tracking-[0.25em] text-[#555846]">
         Սիրելի՛ հյուրեր
       </h2>
 

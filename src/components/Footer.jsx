@@ -12,7 +12,7 @@ export default function Footer() {
                 <a href="tel:095959595" className="cursor-pointer">095 95-95-95</a>
             </div>
         </div>
-        <h2 className="font-serif text-xl italic uppercase mt-[20px] max-w-[250px] text-center font-semibold">
+        <h2 className="font-serif text-[16px] italic uppercase mt-[20px] max-w-[250px] text-center font-semibold">
             Պատրաստվել է սիրով՝ <a href="instagram" className="cursor-pointer underline">Elaris</a>-ի Կողմից
         </h2>
     </footer>

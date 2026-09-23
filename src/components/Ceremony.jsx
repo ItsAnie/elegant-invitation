@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import church from "../assets/church.png";
+import church from "../assets/church.jpg";
 
 export default function Ceremony({ event, onComplete }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,7 +38,7 @@ export default function Ceremony({ event, onComplete }) {
         <img
           src={church}
           alt="Church image"
-          className={`w-[64px] transition-all duration-700 ${
+          className={`rounded-xl transition-all duration-700 ${
             isVisible
               ? "translate-y-0 scale-100 opacity-100"
               : "translate-y-5 scale-90 opacity-0"
@@ -46,7 +46,7 @@ export default function Ceremony({ event, onComplete }) {
         />
 
         <h2
-          className={`font-serif text-3xl italic text-[#555846] transition-all duration-700 ${
+          className={`mt-[20px] font-serif text-3xl italic text-[#555846] transition-all duration-700 ${
             isVisible
               ? "translate-y-0 opacity-100"
               : "translate-y-5 opacity-0"
