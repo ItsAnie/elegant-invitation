@@ -87,7 +87,7 @@ export default function Countdown({ targetDate }) {
             : "translate-y-6 opacity-0"
         }`}
       >
-        <i>Հարսանիքին մնաց</i>
+        Հարսանիքին մնաց
       </h2>
 
       {/* Countdown */}
