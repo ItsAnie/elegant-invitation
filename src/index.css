@@ -2,8 +2,8 @@
 
 @import "tailwindcss";
 
-.font-serif {
-  font-family: "Cormorant Garamond", "Noto Serif Armenian", serif;
+.force-italic {
+  transform: skewX(-10deg);
 }
 
 :root {

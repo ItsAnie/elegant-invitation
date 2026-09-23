@@ -46,7 +46,7 @@ export default function Ceremony({ event, onComplete }) {
         />
 
         <h2
-          className={`mt-[20px] font-serif text-3xl italic text-[#555846] transition-all duration-700 ${
+          className={`mt-[20px] font-serif text-3xl force-italic text-[#555846] transition-all duration-700 ${
             isVisible
               ? "translate-y-0 opacity-100"
               : "translate-y-5 opacity-0"
