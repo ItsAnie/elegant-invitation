@@ -92,7 +92,7 @@ export default function Ceremony({ event, onComplete }) {
         <a
           href={event.mapUrl}
           target="_blank"
-          className={`mt-2 cursor-pointer font-serif text-md italic underline transition-all duration-700 ${
+          className={`mt-2 cursor-pointer font-armenian text-md italic underline transition-all duration-700 ${
             isVisible
               ? "translate-y-0 opacity-100"
               : "translate-y-5 opacity-0"
