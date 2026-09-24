@@ -10,7 +10,7 @@ const InvitationMessage = () => {
         </div>
     <section className="text-center px-6 mt-[40px]">
         
-      <h2 className="mb-4 text-[28px] font-armenian uppercase tracking-[0.25em] text-[#555846]">
+      <h2 className="mb-4 text-[24px] font-armenian uppercase tracking-[0.25em] text-[#555846]">
         Սիրելի՛ հյուրեր
       </h2>
 
