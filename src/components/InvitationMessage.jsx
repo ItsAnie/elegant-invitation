@@ -8,7 +8,7 @@ const InvitationMessage = () => {
             <img alt="Wedding image" src={engangement} className="rounded-lg" />
             <p className="max-w-[150px] text-center text-xl font-serif italic">Save The Date 20.05.2027</p>
         </div>
-    <section className="text-center px-6">
+    <section className="text-center px-6 mt-[40px]">
         
       <h2 className="mb-4 text-[28px] font-armenian uppercase tracking-[0.25em] text-[#555846]">
         Սիրելի՛ հյուրեր
