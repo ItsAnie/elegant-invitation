@@ -162,7 +162,7 @@ export default function RSVP({ weddingId, deadline  }) {
           <div className="pt-4 text-center">
             <button
               type="submit"
-              className="cursor-pointer rounded-full bg-[#858873] px-8 py-3 text-[10px] uppercase tracking-[0.2em] text-white transition hover:bg-[#70735e]"
+              className="cursor-pointer rounded-xl bg-[#858873] px-8 py-3 text-[10px] uppercase tracking-[0.2em] text-white transition hover:bg-[#70735e]"
             >
               Ուղարկել
             </button>
